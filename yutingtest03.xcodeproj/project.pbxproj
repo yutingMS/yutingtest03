@@ -359,7 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stonemsft.yutingtest03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4d7292bc-2799-4951-8607-8f9c64ee5af7";
+				PROVISIONING_PROFILE = "d3f6cfba-773c-4ed1-87f2-3659489d9a28";
 				PROVISIONING_PROFILE_SPECIFIER = "Stone iOS Development";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
