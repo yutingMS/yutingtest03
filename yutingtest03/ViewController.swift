@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AppCenterCrashes
 
 class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
@@ -17,8 +18,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func button(_ sender: Any) {
-        label.text = "yuting is so cool"
-        exit(0)
+       // label.text = "yuting is so cool"
+       MSCrashes.generateTestCrash()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
